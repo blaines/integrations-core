@@ -67,7 +67,8 @@ ONE_PER_CONTEXT_METRIC_TYPES = [aggregator.GAUGE, aggregator.RATE, aggregator.MO
 
 
 class AgentCheck(object):
-    """The base class for any Agent based integration.
+    """
+    The base class for any Agent based integration.
 
     In general, you don't need to and you should not override anything from the base
     class except the `check` method but sometimes it might be useful for a Check to

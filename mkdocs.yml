@@ -63,6 +63,12 @@ plugins:
       minify_html: true
   - git-revision-date-localized:
       type: date
+  # - mkdocstrings:
+  #     default_handler: python
+  #     handlers:
+  #       python:
+  #         rendering:
+  #           show_source: true
 
 # Extensions
 markdown_extensions:
@@ -130,9 +136,9 @@ nav:
     - API: base/api.md
   - Dev Package:
     - "What's in the box?": ddev/layers.md
-    - Configuration: ddev/configuration.md
-    - Plugins: ddev/plugins.md
     - Test framework: ddev/test.md
+    - Plugins: ddev/plugins.md
+    - Configuration: ddev/configuration.md
     - CLI: ddev/cli.md
   - Guidelines:
     - Style: guidelines/style.md
