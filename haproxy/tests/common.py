@@ -97,6 +97,12 @@ BACKEND_TO_ADDR = {
     'otherserver': '127.0.0.1:1234',
 }
 
+STICKTABLE_TYPES = {
+    'anotherbackend': 'ip',
+    'datadog': 'integer',
+    'public': 'string',
+}
+
 
 BACKEND_HOSTS_METRIC = 'haproxy.backend_hosts'
 BACKEND_STATUS_METRIC = 'haproxy.count_per_status'
